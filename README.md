@@ -1,6 +1,6 @@
-# Horoscopes App
+# Horoscope App
 
-Welcome to the Horoscopes App! This app provides daily horoscope readings for all 12 zodiac signs, built using React.
+Welcome to my Horoscope App! This app provides daily horoscope readings for all 12 zodiac signs, built using React.
 
 ## Features
 - Daily horoscope readings for each zodiac sign
@@ -8,7 +8,7 @@ Welcome to the Horoscopes App! This app provides daily horoscope readings for al
 - User-friendly interface
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/[username]/horoscopes-app.git`
+1. Clone the repository: `git clone https://github.com/chufurd/HScope2.git`
 2. Install dependencies: `npm install`
 3. Start the app: `npm start`
 
