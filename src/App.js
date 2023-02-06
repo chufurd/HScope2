@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Selecttimeframe from "./components/Selecttimeframe";
+import SelectTimeframe from "./components/SelectTimeframe";
 import SelectSign from './components/SelectSign'
 import Hororscope from "./components/Hororscope";
 import Footer from './components/Footer'
@@ -23,8 +23,8 @@ function App() {
       {!selectedSign && (
       <SelectSign onSignselected={setSelectedSign}></SelectSign>)}
       
-      {selectedSign && !selectedTimeframe && (<Selecttimeframe 
-      onTimeframeSelected={setSelectedTimeframe}></Selecttimeframe>)}
+      {selectedSign && !selectedTimeframe && (<SelectTimeframe 
+      onTimeframeSelected={setSelectedTimeframe}></SelectTimeframe>)}
       
       {selectedSign && selectedTimeframe && 
       <Hororscope 
