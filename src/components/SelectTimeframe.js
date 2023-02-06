@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Selecttimeframe = ({ onTimeframeSelected }) => {
+const SelectTimeframe = ({ onTimeframeSelected }) => {
   return (
     <>
     <h4>Please Select a Timeframe</h4>
@@ -17,4 +17,4 @@ const Selecttimeframe = ({ onTimeframeSelected }) => {
   
 }
 
-export default Selecttimeframe
+export default SelectTimeframe
